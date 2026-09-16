@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Download Project Report — Shorya Agarwal</title>
+  <style>
+    :root {
+      --navy: #1b365d;
+      --navy-d: #0f2038;
+      --teal: #0f766e;
+      --gold: #b8944a;
+      --paper: #f6f3ec;
+      --ink: #1e293b;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      font-family: "Times New Roman", Times, Georgia, serif;
+      background:
+        radial-gradient(1200px 500px at 50% -10%, rgba(184,148,74,.18), transparent 55%),
+        linear-gradient(180deg, #0f2038 0%, #1b365d 42%, #13243f 100%);
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+    .card {
+      width: min(640px, 100%);
+      background: #fff;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 24px 60px rgba(0,0,0,.35);
+      border: 1px solid rgba(184,148,74,.35);
+    }
+    .bar { height: 8px; background: linear-gradient(90deg, var(--navy), var(--gold), var(--teal)); }
+    .inner { padding: 36px 36px 28px; text-align: center; }
+    .logo {
+      width: 88px; height: 88px; object-fit: contain;
+      margin: 0 auto 14px; display: block;
+      background: #fff; border-radius: 50%;
+      box-shadow: 0 0 0 3px var(--gold);
+    }
+    .kicker {
+      color: var(--teal);
+      font-size: 12px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-family: Georgia, serif;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 26px;
+      line-height: 1.25;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.5;
+      margin-bottom: 22px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin: 0 0 26px;
+      text-align: left;
+    }
+    .meta div {
+      background: #f4f7fb;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 10px 12px;
+    }
+    .meta span { display: block; font-size: 11px; color: var(--muted); letter-spacing: .04em; text-transform: uppercase; }
+    .meta strong { display: block; margin-top: 3px; color: var(--navy); font-size: 14px; }
+    a.btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: .02em;
+      padding: 16px 18px;
+      border-radius: 12px;
+      box-shadow: 0 10px 24px rgba(27,54,93,.28);
+      transition: transform .15s ease, background .15s ease;
+    }
+    a.btn:hover { background: #152a4a; transform: translateY(-1px); }
+    a.btn:active { transform: translateY(0); }
+    .hint {
+      margin-top: 14px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .foot {
+      border-top: 1px solid #e8eef5;
+      padding: 14px 36px 18px;
+      font-size: 12px;
+      color: var(--muted);
+      text-align: center;
+      background: #fafbfd;
+    }
+    @media (max-width: 520px) {
+      .inner { padding: 28px 20px 22px; }
+      .meta { grid-template-columns: 1fr; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="bar"></div>
+    <div class="inner">
+      <img class="logo" src="/tmu_logo.jpeg" alt="Teerthanker Mahaveer University" />
+      <div class="kicker">Teerthanker Mahaveer University</div>
+      <h1>Multiple Disease Prediction System</h1>
+      <p class="sub">BCA Project Report — Microsoft Word file (.docx), ready to open and edit.</p>
+      <div class="meta">
+        <div><span>Student</span><strong>Shorya Agarwal</strong></div>
+        <div><span>Enrollment</span><strong>TCA2568564</strong></div>
+        <div><span>Programme</span><strong>BCA · Section G</strong></div>
+        <div><span>File type</span><strong>Editable .docx · ~500 KB</strong></div>
+      </div>
+      <a class="btn" href="/Shorya_Agarwal_MDPS_Project_Report.docx" download="Shorya_Agarwal_Multiple_Disease_Prediction_Report.docx">
+        Download Word Report
+      </a>
+      <p class="hint">Opens in Microsoft Word, Google Docs, or LibreOffice. You can edit names, semester, and guide details after download.</p>
+    </div>
+    <div class="foot">Faculty of Engineering & Computing Sciences · September 2026</div>
+  </main>
+</body>
+</html>
